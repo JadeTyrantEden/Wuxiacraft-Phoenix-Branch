@@ -1,0 +1,12 @@
+{
+    "name": "Wandering Cultivators",
+    "icon": "minecraft:emerald",
+    "category": "wuxiacraft:cultivation/getting_started",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Wandering Cultivators may be found in the many villages around the world. Or may be conscripted to pick up the trade with a $(l:wuxiacraft:cultivation/getting_started/technique_inscriber)Technique Inscriber$(). $(br2)Cultivation is not a for the poor however. Manuals which teach you physical asspects will cost you 10 emeralds. If you aspire to learn one of the elements for your practice, you will need to trade a couple of times till the Wandering Cultivator will be willing to part with such manuals."
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Prologue",
+  "icon": "minecraft:writable_book",
+  "category": "wuxiacraft:cultivation/getting_started",
+  "sortnum" : 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Welcome little friend $(playername), This is a guide to help you take your first steps into the world of cultivation. Here, you will learn the basics of this ancient art and how to begin your journey towards immortality. $(br2) The road ahead is long and harrowing, but with my help I believe you will be able to achieve the Dao."
+    }
+  ]
+}

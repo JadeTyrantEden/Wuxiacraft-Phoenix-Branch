@@ -1,0 +1,34 @@
+{
+    "name": "Your First Tecnique",
+    "icon": "wuxiacraft:spirit_stone_1",
+    "category": "wuxiacraft:cultivation/getting_started",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "With in the $(l:wuxiacraft:cultivation/gui)Introspection Menu$() you can construct different techniques with the aspects you have learned. $(br2)Selecting an aspect from the left hand side you can then place it in the technique grid. Aspects come in four general types: "
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Start Aspect",
+            "text": "The start aspect is the origin of the path of your technique. $(br2)You can only have 1 start aspect at a time and they will only connect to generator aspects."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Generator Aspects",
+            "text": "The generator aspect will generate a given aspect element. Generator aspects by themselves will not increase your cultivation as they need to be converted into cultivation base. $(br2)These types can connect to the start aspect, other generator aspects of the same element, and converter aspects."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Converter Aspects",
+            "text": "the converter aspect does the hard work of converting what the generator makes into usable cultivation. Converter aspects can only convert as much as you have generated in a given chain. It is imperitive to make sure you only have as many converters as you need. $(br2)Converters can connect to generator aspects and other converter aspects of the same element as well as the gathering aspect."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Gathering Aspect",
+            "text": "Gathering aspects are the final step in the chain. They will take all the cultivation you have generated and converted to apply it to your cultivation base. $(br2)Gathering aspects are the final connection in the chain and can connect to any converter aspect."
+        }
+
+
+    ]
+}

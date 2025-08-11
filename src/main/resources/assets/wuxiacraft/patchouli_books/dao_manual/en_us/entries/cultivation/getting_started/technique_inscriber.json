@@ -1,0 +1,16 @@
+{
+    "name": "Technique Inscriber",
+    "icon": "wuxiacraft:technique_inscriber",
+    "category": "wuxiacraft:cultivation/getting_started",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Technique Inscriber is a neat tool for sharing your knowledge with others. $(br2)By supplying it with some ink and a book you can imprint the techniques you already know into a nifty little manual."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "wuxiacraft:technique_inscriber"
+        }
+    ]
+}

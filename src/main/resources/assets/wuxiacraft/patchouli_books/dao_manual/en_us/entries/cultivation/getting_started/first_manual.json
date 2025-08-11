@@ -1,0 +1,20 @@
+{
+  "name": "Your First Manual",
+  "icon": "wuxiacraft:essence_manual",
+  "category": "wuxiacraft:cultivation/getting_started",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "No matter which path you choose to walk, Obtaining your first manual is the first step on your road to cultivation. $(br2)Generaly there are four ways to obtain a technique manual: $(br)$(li)The first and by far the easiest method would to have a cultivation manual imparted onto you by a fellow daoist."
+    },
+    {
+        "type": "patchouli:text",
+        "text": "$(li)The second method would be to find a Wandering Cultivator villager and trade emeralds for one of their arts. Beaware, only expert and master traders will have elemental techniques. $(br)$(li)The third method would be to locate a long lost art in cultivators tomb. Sadly many of these tombs can be found from those who never got to see their Dao to it's end."
+    },
+    {
+        "type": "patchouli:text",
+        "text": "$(li)The final method would be to create your own manual. As you explore the world, you may learn differing asspects breaking blocks and defeating foes. Though it might be long and cumbersome, one can indeed build their own manual through such a method."
+    }
+  ]
+}

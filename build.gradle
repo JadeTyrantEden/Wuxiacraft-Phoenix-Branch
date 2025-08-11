@@ -49,6 +49,8 @@ minecraft {
 		}
 
 		client {
+			property 'mixin.env.remapRefMap', 'true'
+			property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 		}
 
 		server {
@@ -86,12 +88,16 @@ dependencies {
 	compileOnly fg.deobf("curse.maven:jade-324717:${jade_id}")
 	runtimeOnly fg.deobf("curse.maven:jade-324717:${jade_id}")
 
+	compileOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}:api")
+	runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")
+
 	runtimeOnly fg.deobf("curse.maven:architectury-api-419699:4663010")
 	runtimeOnly fg.deobf("curse.maven:cloth-config-348521:4633444")
 	runtimeOnly fg.deobf("curse.maven:roughly-enough-items-310111:4774395")
 
 	// Apply Mixin AP
 	annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
 
 }
 
@@ -107,6 +113,7 @@ repositories {
 			includeGroup "curse.maven"
 		}
 	} // Jade
+	maven { url 'https://maven.blamejared.com' } //Patchouli
 }
 
 tasks.named('processResources', ProcessResources).configure {

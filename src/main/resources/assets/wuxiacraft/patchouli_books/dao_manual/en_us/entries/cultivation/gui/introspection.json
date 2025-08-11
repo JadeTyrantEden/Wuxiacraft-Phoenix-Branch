@@ -1,0 +1,11 @@
+{
+    "name": "Introspection",
+    "icon": "wuxiacraft:spirit_stone_4",
+    "category": "patchouli:cultivation/gui",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

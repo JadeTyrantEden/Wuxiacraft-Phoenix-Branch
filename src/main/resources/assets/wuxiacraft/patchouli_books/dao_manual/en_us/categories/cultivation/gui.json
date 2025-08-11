@@ -1,0 +1,6 @@
+{
+  "name": "Cultivation GUIs",
+  "description": "An indepth overview of the introspection and meditation menus",
+  "icon": "wuxiacraft:spirit_stone_9",
+  "parent": "patchouli:cultivation/cultivation"
+}

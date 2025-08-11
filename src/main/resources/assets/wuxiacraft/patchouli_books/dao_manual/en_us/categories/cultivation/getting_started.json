@@ -1,0 +1,6 @@
+{
+  "name": "First Steps",
+  "description": "New Beginnings in the world of cultivation.",
+  "icon": "wuxiacraft:essence_manual",
+  "parent": "patchouli:cultivation/cultivation"
+}
